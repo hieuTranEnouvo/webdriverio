@@ -1,12 +1,12 @@
 import homPageUI from "../interfaces/homePageUI"
-import abtractsPage from "../commons/AbtractsPage"
+import AbtractsPage from "../commons/AbtractsPage"
 
-class HomePage {
+class HomePage extends AbtractsPage {
 
   // Actions
   async navigateToLoginPage() {
-    await homPageUI.btnSignIn.click();
+    await this.clickElement(homPageUI.btnSignIn)
     console.log("Sign In Button Is Clicked");
   }
 }
-export default new HomePage();
+export default new HomePage()

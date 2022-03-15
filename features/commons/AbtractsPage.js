@@ -1,4 +1,4 @@
-class AbtractsPage {
+export default class AbtractsPage {
     clickElement = async (ele) => {
         await ele.click();
     }
@@ -30,6 +30,4 @@ class AbtractsPage {
         await ele.waitForClickable({ timeout: time });
         await ele.setValue(value);
     }
-
 }
-export default new AbtractsPage();
