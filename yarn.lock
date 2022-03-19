@@ -3117,15 +3117,10 @@
   dependencies:
     "lodash" "^4.17.14"
 
-"async@^3.1.0":
+"async@^3.1.0", "async@^3.2.0":
   "integrity" "sha512-TR2mEZFVOj2pLStYxLht7TyfuRzaydfpxr3k9RpHIzMgw7A64dzsdqCxH1WJyQdoe8T10nDXd9wnEigmiuHIZw=="
   "resolved" "https://registry.npmjs.org/async/-/async-3.2.0.tgz"
   "version" "3.2.0"
-
-"async@^3.2.0":
-  "integrity" "sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g=="
-  "resolved" "https://registry.npmjs.org/async/-/async-3.2.3.tgz"
-  "version" "3.2.3"
 
 "async@0.9.x":
   "integrity" "sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0="
@@ -3563,10 +3558,10 @@
     "is-wsl" "^2.2.0"
     "lighthouse-logger" "^1.0.0"
 
-"chromedriver@*", "chromedriver@^98.0.0":
-  "integrity" "sha512-/04KkHHE/K/lfwdPTQr5fxi1dWvM83p8T/IkYbyGK2PBlH7K49Dd71A9jrS+aWgXlZYkuHhbwiy2PA2QqZ5qQw=="
-  "resolved" "https://registry.npmjs.org/chromedriver/-/chromedriver-98.0.1.tgz"
-  "version" "98.0.1"
+"chromedriver@*", "chromedriver@^99.0.0":
+  "integrity" "sha512-pyB+5LuyZdb7EBPL3i5D5yucZUD+SlkdiUtmpjaEnLd9zAXp+SvD/hP5xF4l/ZmWvUo/1ZLxAI1YBdhazGTpgA=="
+  "resolved" "https://registry.npmjs.org/chromedriver/-/chromedriver-99.0.0.tgz"
+  "version" "99.0.0"
   dependencies:
     "@testim/chrome-version" "^1.1.2"
     "axios" "^0.24.0"
