@@ -78,8 +78,8 @@ exports.config = {
         // excludeDriverLogs: ['*'], // pass '*' to exclude all driver session logs
         // excludeDriverLogs: ['bugreport', 'server'],
         platformName: "Android",
-        "appium:deviceName": "Pixel 3",
-        "appium:platformVersion": "9",
+        "appium:deviceName": "Pixel 3_XL_API_32",
+        "appium:platformVersion": "12",
         "appium:automationName": "UIAutomator2",
         "appium:app": path.join(process.cwd(), "./apk/ApiDemos-debug.apk"),
         path: '/wd/hub', 
