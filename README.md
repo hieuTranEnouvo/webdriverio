@@ -11,6 +11,7 @@ npm install expect-webdriverio
 npm install @wdio/allure-reporter --save-dev
 npm i allure-commandline
 npm i wdio-cucumberjs-json-reporter
+npm install webdriverio@latest
 
 
 config:
@@ -70,7 +71,9 @@ global.SharedVariable.address = addressObj;
 
 8. 
 Generate report
-"generate-report": "allure generate report/allure-results --clean && allure open",
+"generate-report": "allure generate reporter/allure-results --clean", ==> server
+"generate-report": "allure generate report/allure-results --clean && allure open", ==> run local
+
 
 9. 
 open docker
