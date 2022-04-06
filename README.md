@@ -99,6 +99,5 @@ json:
 }
 
 IOS:
-
 Install appium desktop 
 https://github.com/appium/appium-desktop/releases

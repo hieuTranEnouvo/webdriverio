@@ -28,7 +28,7 @@
     "@wdio/selenium-standalone-service": "^7.19.0",
     "@wdio/spec-reporter": "^7.16.14",
     "appium": "^1.22.2",
-    "chromedriver": "^98.0.0",
+    "chromedriver": "^100.0.0",
     "multiple-cucumber-html-reporter": "^1.19.0",
     "wdio-chromedriver-service": "^7.2.8",
     "wdio-cucumberjs-json-reporter": "^4.4.0",
