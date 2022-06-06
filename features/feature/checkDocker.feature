@@ -12,7 +12,7 @@ Feature: SignUp, Sign In and Purchase Product
         Given I am on the Sign In Page
         When Login using newly created static credentials
         Then I shall verify the address information in my addresses static section
-        
+
     # @regression
     # Scenario:TC-003 Add product to Online Cart and checkout
     #     Given I am on the home page
@@ -38,3 +38,12 @@ Feature: SignUp, Sign In and Purchase Product
     #     Then I shall verify the address information in my addresses static section
     #     Given I am on the contact page
     #     Then I send refund request to customer care for prev order
+
+    @regression
+    Scenario:TC-005 Contact customer service for the previous successful order
+        Given I am on the home page
+        Given I am on the Sign In Page
+        When Login using newly created static credentials
+        Then I shall verify the address information in my addresses static section
+        Given I am on the contact page
+        Then I send refund request to customer care for prev order
