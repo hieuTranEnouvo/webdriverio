@@ -25,7 +25,7 @@ jobs:
       - name: Run test:regression
         run: npm run test:regression
 
-      - name: Remove file
+      - name: Rerun-service
         run: npm run rerun-service || true
       # - name: Install Allure CommandLine
       #   run: npm i -g allure-commandline
@@ -55,7 +55,7 @@ jobs:
       - name: Remove file
         run: npm run removeFile || true
 
-      - name: Remove file
+      - name: Rerun-service
         run: npm rerun-service || true
       # - name: Install Allure CommandLine
       #   run: npm i -g allure-commandline
