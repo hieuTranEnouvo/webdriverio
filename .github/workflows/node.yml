@@ -20,9 +20,7 @@ jobs:
       - run: npm install
       - run: npm removeFile || true
       - run: npm run test:regression
-      - run:
-          name: Rerun Failed
-          command: npm rerun-service || true
+      - run: npm rerun-service || true
       # - name: Install Allure CommandLine
       #   run: npm i -g allure-commandline
       # - name: Generate Allure Reports
