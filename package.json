@@ -12,7 +12,9 @@
     "generate-report": "allure generate reporter/allure-results --clean",
     "generate-allure-report-open": "allure generate reporter/allure-results --clean && allure open",
     "generate-report:cucumber-html": "node index.js",
-    "crossBrowser": "npx wdio run wdio.crossBrowser.conf.js"
+    "crossBrowser": "npx wdio run wdio.crossBrowser.conf.js",
+    "removeFile": "node config/removeFile.js",
+    "rerun-service": "sh rerun.sh"
   },
   "author": "",
   "license": "ISC",
