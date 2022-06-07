@@ -18,9 +18,15 @@ jobs:
         with:
           node-version: 16.3.0
       - run: npm install
-      - run: npm removeFile || true
-      - run: npm run test:regression
-      - run: npm rerun-service || true
+
+      - name: Remove file
+        run: npm removeFile || true
+
+      - name: Run test:regression
+        run: npm run test:regression
+
+      - name: Remove file
+        run: npm rerun-service || true
       # - name: Install Allure CommandLine
       #   run: npm i -g allure-commandline
       # - name: Generate Allure Reports
@@ -44,11 +50,13 @@ jobs:
         with:
           node-version: 16.3.0
       - run: npm install
-      - run:
-          name: Remove file
-          command: yarn removeFile || true
-      - run: npm run test:sanity
-      - run: npm removeFile || true
+      - name: Run test:regression
+        run: npm run test:sanity
+      - name: Remove file
+        run: npm removeFile || true
+
+      - name: Remove file
+        run: npm rerun-service || true
       # - name: Install Allure CommandLine
       #   run: npm i -g allure-commandline
       # - name: Generate Allure Reports
